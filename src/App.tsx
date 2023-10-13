@@ -7,11 +7,11 @@ import Sidenav from "./components/Sidenav";
 function App() {
   return (
     <DataContextProvider>
-      <div>
+      <div className="container">
         <Sidenav />
         <main>
-          <Resumo />
           <Header />
+          <Resumo />
         </main>
       </div>
     </DataContextProvider>
