@@ -36,7 +36,7 @@ const Resumo = () => {
         </div>
       </div>
       <div className="box mb">
-        <GraficoVendas />
+        <GraficoVendas data={data} />
       </div>
     </section>
   );
